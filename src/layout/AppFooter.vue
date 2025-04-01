@@ -11,7 +11,7 @@ export default {
   <footer>
     <section class="bg-footer">
       <div class="container py-3 text-center text-white">
-        <p>Copyright di Bosun's Store SRLS</p>
+        <p>Copyright© Bosun's Store SRLS</p>
       </div>
     </section>
   </footer>
