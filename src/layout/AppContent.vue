@@ -1,30 +1,24 @@
 <script>
-
 export default {
-  components: {
-  },
+  components: {},
   data() {
-    return {
-    }
-  }
-}
-
+    return {};
+  },
+};
 </script>
 
 <template>
-
   <main>
     <section class="h-100">
       <div class="container py-5 h-100">
-        <div class="row aling-items-center flex-column justify-content-center h-100">
-          <div class="col-auto text-center">
-            <h1>Hello Vue <font-awesome-icon :icon="['fab', 'vuejs']" /></h1>
-          </div>
-        </div>
+        <h2 class="text-center">Bosun's Store è in liquidazione</h2>
+        <p class="text-center">
+          Per informazioni contattarci a
+          <a href="mailto:info@bosun.it">info@bosun.it</a>
+        </p>
       </div>
     </section>
   </main>
-
 </template>
 
 <style></style>

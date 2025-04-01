@@ -1,4 +1,5 @@
 /* @use './partials/exmaple.scss'; */
+@use './variables.scss';
 
 #app {
   height: 100vh;
@@ -11,4 +12,8 @@
 
 main {
   flex-grow: 1;
+}
+
+.btn-brand {
+  border-color: var(--brand-color-default);
 }

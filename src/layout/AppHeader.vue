@@ -1,26 +1,28 @@
 <script>
-
 export default {
-  components: {
-  },
+  components: {},
   data() {
-    return {
-    }
-  }
-}
-
+    return {};
+  },
+};
 </script>
 
 <template>
-
   <header>
-    <section class="bg-dark">
-      <div class="container py-5 text-center text-white">
-        <h1>HEADER</h1>
+    <section class="bg-header">
+      <div class="container py-3 text-center text-white">
+        <h1 class="header-title">Bosun's Store</h1>
       </div>
     </section>
   </header>
-
 </template>
 
-<style></style>
+<style scoped>
+.bg-header {
+  background-color: var(--brand-color-default);
+}
+
+.header-title {
+  color: var(--accent-color-default);
+}
+</style>

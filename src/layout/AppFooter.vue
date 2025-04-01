@@ -1,26 +1,24 @@
 <script>
-
 export default {
-  components: {
-  },
+  components: {},
   data() {
-    return {
-    }
-  }
-}
-
+    return {};
+  },
+};
 </script>
 
 <template>
-
   <footer>
-    <section class="bg-dark">
-      <div class="container py-5 text-center text-white">
-        <h1>FOOTER</h1>
+    <section class="bg-footer">
+      <div class="container py-3 text-center text-white">
+        <p>Copyright di Bosun's Store SRLS</p>
       </div>
     </section>
   </footer>
-
 </template>
 
-<style></style>
+<style scoped>
+.bg-footer {
+  background-color: var(--brand-color-default);
+}
+</style>
