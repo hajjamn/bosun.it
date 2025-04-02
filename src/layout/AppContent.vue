@@ -9,8 +9,9 @@ export default {
 
 <template>
   <main>
-    <section class="h-100">
-      <div class="container py-5 h-100 text-center">
+    <section class="">
+      <div class="hero-container container"></div>
+      <div class="map-info-container container py-5 h-100 text-center">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2876.5472019067033!2d10.25347247467986!3d43.86521293869491!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12d5a1fee6eb70bf%3A0xead5fbd411a8a695!2sVia%20Paolo%20Savi%2C%209%2C%2055049%20Viareggio%20LU!5e0!3m2!1sit!2sit!4v1743501909392!5m2!1sit!2sit"
           width="600"
@@ -32,8 +33,12 @@ export default {
   </main>
 </template>
 
-<style>
+<style scoped>
 p {
   margin-bottom: 4px;
+}
+
+.hero-container {
+  height: 250px;
 }
 </style>

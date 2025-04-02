@@ -20,5 +20,6 @@ export default {
 <style scoped>
 .bg-footer {
   background-color: var(--brand-color-default);
+  overflow-x: none;
 }
 </style>
